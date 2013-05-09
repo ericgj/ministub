@@ -29,7 +29,7 @@ foo.bar  // 'bar'
 
 /* example using a spy */
 
-var Spy = function(){
+function Spy(){
   this.calls = [];
   return this;
 }
