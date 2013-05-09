@@ -9,7 +9,7 @@
 
 ## API
 
-  ### Stub( obj, name, val_or_fn, fn )
+### Stub( obj, name, val_or_fn, fn )
 
   Stub the method `name` of `obj` with `val_or_fn` for the duration of block `fn`.
 
