@@ -43,9 +43,10 @@ foo.bar = function(x){ /* ... */ }
 
 stub(foo, 'bar', spy.listen, function(){
   foo.bar(23);
+  foo.bar(144);
 }); 
 
-spy.calls[0]  // [23]
+spy.calls  // [ [23], [144] ]
 ```
 
 ## License
