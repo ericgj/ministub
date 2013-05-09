@@ -1,0 +1,15 @@
+{
+  "name": "ministub",
+  "repo": "ericgj/ministub",
+  "description": "Stub utility translated from Ruby's MiniTest",
+  "version": "0.0.1",
+  "keywords": ['test','testing','tdd','bdd']
+  "dependencies": {},
+  "development": {
+    "visionmedia/mocha": "*",  
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
